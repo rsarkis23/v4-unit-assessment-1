@@ -1,0 +1,39 @@
+h1 {
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 20px;
+}
+nav {
+    display: inline-block;
+    font-size: x-large;
+    font-weight: 100;
+    padding-left: 3%;
+}
+p {
+    margin-left: 25px;
+    font-size: 20px;
+    text-align: auto;
+    clear: left;
+
+}
+
+#HTML5 {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: auto;
+}
+
+body {
+    background-color: white;
+}
+
+#HTML5 {
+    box-shadow: none;
+    float: inline-start;
+    box-sizing: border-box;
+    border: 2px;
+}
+
+
+
