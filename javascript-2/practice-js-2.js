@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = 'Version control system'
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = 'Cloud repositories that are used with git'
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +34,10 @@
 */
 
 //CODE HERE
-
+let init = {
+    description: 'initializes an empty git repository on your system',
+    code: "git init"
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +45,10 @@
 */
 
 //CODE HERE
-
+let clone = {
+    description: 'Lets you clone a git repo from github to your locally',
+    code: 'git clone SAMPLE-URL'
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,6 +56,10 @@
 */
 
 //CODE HERE
+let status = {
+    description: 'Lets you check the changes made to your files, and if they have been added to the staging area or not',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,7 +68,10 @@
 */
 
 //CODE HERE
-
+let add = {
+    description: 'Adds the changes made to the files/folders and adds them to the staging area, so they can be committed and pushed to Github',
+    code: 'git add .'
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +79,10 @@
 */
 
 //CODE HERE
-
+let commit = {
+    description: 'captures the projects staged changes, so they can be pushed to Github',
+    code: 'git commit -m"SAMPLE-MESSAGE" '
+}
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -74,7 +90,10 @@
 */
 
 //CODE HERE
-
+let addRemote = {
+    description: 'Lets you connect your local repository to an online host like Github, so that you can backup and save changes from your local system to another remote repo',
+    code: 'git remote add origin ONLINE-REPO-URL'
+}
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +101,7 @@
 */
 
 //CODE HERE
+let push = {
+    description: 'Pushes the changes made to your files/folders from the staging area to a remote repo',
+    code: 'git push'
+}
